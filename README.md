@@ -1,22 +1,16 @@
 # Phishing URL Detection 
-![image](https://user-images.githubusercontent.com/79131292/144742825-23367f0f-9e67-4c99-ba1f-b86a187675c9.png)
-![image](https://user-images.githubusercontent.com/79131292/144742785-d183f50a-52d6-4296-a43a-90a1ee3502d8.png)
+![alt text](image.png)
+![alt text](image-1.png)
 
-## Table of Content
-  * [Introduction](#introduction)
-  * [Installation](#installation)
-  * [Directory Tree](#directory-tree)
-  * [Result](#result)
-  * [Conclusion](#conclusion)
+
 
 
 ## Introduction
-
-The Internet has become an indispensable part of our life, However, It also has provided opportunities to anonymously perform malicious activities like Phishing. Phishers try to deceive their victims by social engineering or creating mockup websites to steal information such as account ID, username, password from individuals and organizations. Although many methods have been proposed to detect phishing websites, Phishers have evolved their methods to escape from these detection methods. One of the most successful methods for detecting these malicious activities is Machine Learning. This is because most Phishing attacks have some common characteristics which can be identified by machine learning methods. To see project click [here]("/").
+The Internet has now become an integral aspect of our daily lives. However, it has also opened avenues for malicious activities such as Phishing to be carried out anonymously. Phishers employ tactics like social engineering or creating fake websites to trick individuals and organizations into divulging sensitive information like account credentials. Despite numerous attempts to detect phishing websites, phishers continually adapt their strategies to evade detection. One highly effective approach in combating these nefarious activities is through the application of Machine Learning. This is due to the fact that most phishing attacks exhibit certain identifiable patterns which can be discerned using machine learning algorithms. To view the project, click on the link provided.[here]("/").
 
 
 ## Installation
-The Code is written in Python 3.6.10. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
+The code is implemented in Python 3.6.10. If you do not have Python installed on your system, you can download it from [here](https://www.python.org/downloads/). If you are currently using an older version of Python, you can upgrade it using the pip package manager, ensuring you have the latest version of pip installed. To install the necessary packages and libraries, execute the following command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
 ```bash
 pip install -r requirements.txt
 ```
@@ -40,14 +34,7 @@ pip install -r requirements.txt
 
 ```
 
-## Technologies Used
 
-![](https://forthebadge.com/images/badges/made-with-python.svg)
-
-[<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" width=200>](https://numpy.org/doc/) [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" width=200>](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
-[<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" width=100>](https://matplotlib.org/)
-[<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=200>](https://scikit-learn.org/stable/) 
-[<img target="_blank" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScq-xocLctL07Jy0tpR_p9w0Q42_rK1aAkNfW6sm3ucjFKWML39aaJPgdhadyCnEiK7vw&usqp=CAU" width=200>](https://flask.palletsprojects.com/en/2.0.x/) 
 
 ## Result
 
@@ -69,15 +56,13 @@ Accuracy of various model used for URL detection
 8|	Logistic Regression|        	0.934|	0.941|	0.943|	0.927|
 9|	Naive Bayes Classifier|     	0.605|	0.454|	0.292|	0.997|
 
-Feature importance for Phishing URL Detection 
-<br><br>
-![image](https://user-images.githubusercontent.com/79131292/144603941-19044aae-7d7b-4e9a-88a8-6adfd8626f77.png)
+
 
 
 
 
 ## Conclusion
-1. The final take away form this project is to explore various machine learning models, perform Exploratory Data Analysis on phishing dataset and understanding their features. 
-2. Creating this notebook helped me to learn a lot about the features affecting the models to detect whether URL is safe or not, also I came to know how to tuned model and how they affect the model performance.
-3. The final conclusion on the Phishing dataset is that the some feature like "HTTTPS", "AnchorURL", "WebsiteTraffic" have more importance to classify URL is phishing URL or not. 
-4. Gradient Boosting Classifier currectly classify URL upto 97.4% respective classes and hence reduces the chance of malicious attachments.
+1. The main takeaway from this project is to explore different machine learning models, conduct Exploratory Data Analysis on the phishing dataset, and comprehend their features.
+2. Developing this notebook has significantly enhanced my understanding of the factors influencing the models in determining the safety of URLs. It has also provided insights into the process of tuning models and their impact on model performance.
+3. Based on the analysis of the Phishing dataset, it can be concluded that certain features such as "HTTPS," "AnchorURL," and "WebsiteTraffic" play a significant role in distinguishing phishing URLs from legitimate ones.
+4. The Gradient Boosting Classifier demonstrates a high accuracy rate of 97.4% in classifying URLs into their respective categories, thus reducing the risk associated with malicious attachments.
